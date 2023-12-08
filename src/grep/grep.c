@@ -26,15 +26,11 @@
 #define SSTD_MEMORY_IMPL
 #endif  // SSTD_MEMORY_IMPL
 
-#ifndef SSTD_STR_IMPL
-#define SSTD_STR_IMPL
-#endif  // SSTD_STR_IMPL
-
 #include "patterns.h"
 #include "rc.h"
 #include "sstd/memory.h"
-#include "sstd/sstd.h"
-#include "sstd/str.h"
+#include "sstd/bits.h"
+#include "sstd/color.h"
 
 #define OPT_NONE EXPAND(0)
 #define OPT_HELP MKFLAG(1)

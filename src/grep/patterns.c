@@ -5,6 +5,10 @@
 #include <stdio.h>
 #include <string.h>
 
+#ifndef SSTD_STR_IMPL
+#define SSTD_STR_IMPL
+#endif  // SSTD_STR_IMPL
+
 #include "sstd/memory.h"
 #include "sstd/str.h"
 
