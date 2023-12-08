@@ -1,0 +1,4 @@
+# To-dos
+
+- [ ] Remove all structured code style stuff
+- [ ] Multithreading in `grep` (chuck-based processing)
