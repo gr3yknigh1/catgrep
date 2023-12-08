@@ -1,11 +1,10 @@
 #include <getopt.h>
 #include <limits.h>
 #include <stdbool.h>
-#include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "sstd/sstd.h"
+#include "sstd/bits.h"
 
 #define ASCII_DEL EXPAND(127)
 #define CARET_OFFSET EXPAND(64)
