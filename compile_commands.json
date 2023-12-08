@@ -1,0 +1,71 @@
+[
+ {
+  "directory": "/home/gr3yknigh1/workspace/projects/catgrep",
+  "arguments": [
+   "gcc",
+   "-Wall",
+   "-Wextra",
+   "-pedantic",
+   "-std=c11",
+   "-I",
+   "/home/gr3yknigh1/workspace/projects/catgrep/include",
+   "-Werror",
+   "-O2",
+   "-D",
+   "CONFIG_RELEASE",
+   "-D",
+   "OS_LINUX",
+   "-c",
+   "/home/gr3yknigh1/workspace/projects/catgrep/src/cat/cat.c",
+   "-o",
+   "/home/gr3yknigh1/workspace/projects/catgrep/src/cat/cat.o"
+  ],
+  "file": "/home/gr3yknigh1/workspace/projects/catgrep/src/cat/cat.c"
+ },
+ {
+  "directory": "/home/gr3yknigh1/workspace/projects/catgrep",
+  "arguments": [
+   "gcc",
+   "-Wall",
+   "-Wextra",
+   "-pedantic",
+   "-std=c11",
+   "-I",
+   "/home/gr3yknigh1/workspace/projects/catgrep/include",
+   "-Werror",
+   "-O2",
+   "-D",
+   "CONFIG_RELEASE",
+   "-D",
+   "OS_LINUX",
+   "-c",
+   "/home/gr3yknigh1/workspace/projects/catgrep/src/grep/grep.c",
+   "-o",
+   "/home/gr3yknigh1/workspace/projects/catgrep/src/grep/grep.o"
+  ],
+  "file": "/home/gr3yknigh1/workspace/projects/catgrep/src/grep/grep.c"
+ },
+ {
+  "directory": "/home/gr3yknigh1/workspace/projects/catgrep",
+  "arguments": [
+   "gcc",
+   "-Wall",
+   "-Wextra",
+   "-pedantic",
+   "-std=c11",
+   "-I",
+   "/home/gr3yknigh1/workspace/projects/catgrep/include",
+   "-Werror",
+   "-O2",
+   "-D",
+   "CONFIG_RELEASE",
+   "-D",
+   "OS_LINUX",
+   "-c",
+   "/home/gr3yknigh1/workspace/projects/catgrep/src/grep/patterns.c",
+   "-o",
+   "/home/gr3yknigh1/workspace/projects/catgrep/src/grep/patterns.o"
+  ],
+  "file": "/home/gr3yknigh1/workspace/projects/catgrep/src/grep/patterns.c"
+ }
+]

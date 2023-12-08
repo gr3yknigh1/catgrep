@@ -1,0 +1,70 @@
+in test_text_01.txt
+
+-c in test_text_01.txt
+-l in test_text_01.txt
+-i in test_text_01.txt
+-v in test_text_01.txt
+
+-f test_patterns_01.txt test_text_01.txt
+-c test_patterns_01.txt test_text_01.txt
+-l test_patterns_01.txt test_text_01.txt
+
+-e in -l -f test_patterns_01.txt test_text_01.txt
+-e in -c -f test_patterns_01.txt test_text_01.txt
+
+-f test_patterns_01.txt test_text_01.txt test_text_01.txt
+-c test_patterns_01.txt test_text_01.txt test_text_01.txt
+-l test_patterns_01.txt test_text_01.txt test_text_01.txt
+
+-n -f test_patterns_01.txt test_text_01.txt test_text_01.txt
+-cn -f test_patterns_01.txt test_text_01.txt test_text_01.txt
+-ln -f test_patterns_01.txt test_text_01.txt test_text_01.txt
+
+-e Lorem -e in -l -f test_patterns_01.txt test_text_01.txt
+-e Lorem -e in -c -f test_patterns_01.txt test_text_01.txt
+
+-e Lorem -e in -l -f test_patterns_01.txt test_text_01.txt
+-e Lorem -e in -c -f test_patterns_01.txt test_text_01.txt
+
+-e Lorem -e in -lv -f test_patterns_01.txt test_text_01.txt
+-e Lorem -e in -cv -f test_patterns_01.txt test_text_01.txt
+
+-e Lorem -e in -lvh -f test_patterns_01.txt test_text_01.txt
+-e Lorem -e in -cvh -f test_patterns_01.txt test_text_01.txt
+
+
+in test_text_02.txt
+
+-c in test_text_02.txt
+-l in test_text_02.txt
+-i in test_text_02.txt
+-v in test_text_02.txt
+
+-f test_patterns_02.txt test_text_02.txt
+-c test_patterns_02.txt test_text_02.txt
+-l test_patterns_02.txt test_text_02.txt
+
+-e in -l -f test_patterns_02.txt test_text_02.txt
+-e in -c -f test_patterns_02.txt test_text_02.txt
+
+-f test_patterns_02.txt test_text_02.txt test_text_02.txt
+-c test_patterns_02.txt test_text_02.txt test_text_02.txt
+-l test_patterns_02.txt test_text_02.txt test_text_02.txt
+
+-n -f test_patterns_02.txt test_text_02.txt test_text_02.txt
+-cn -f test_patterns_02.txt test_text_02.txt test_text_02.txt
+-ln -f test_patterns_02.txt test_text_02.txt test_text_02.txt
+
+-e Lorem -e in -l -f test_patterns_02.txt test_text_02.txt
+-e Lorem -e in -c -f test_patterns_02.txt test_text_02.txt
+
+-e Lorem -e in -l -f test_patterns_02.txt test_text_02.txt
+-e Lorem -e in -c -f test_patterns_02.txt test_text_02.txt
+
+-e Lorem -e in -lv -f test_patterns_02.txt test_text_02.txt
+-e Lorem -e in -cv -f test_patterns_02.txt test_text_02.txt
+
+-e Lorem -e in -lvh -f test_patterns_02.txt test_text_02.txt
+-e Lorem -e in -cvh -f test_patterns_02.txt test_text_02.txt
+
+
