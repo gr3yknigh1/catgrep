@@ -3,3 +3,5 @@
 > Cat and grep implementation.
 
 This project was made for School 21 (SimpleBashUtils).
+
+![Screenshot](/.github/screenshot.png)
